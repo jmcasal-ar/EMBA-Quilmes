@@ -135,6 +135,141 @@ nav ul a {
     height: 307px;
 }
 
+/*Carreras*/
+.nuestrasCarreras{
+    background-color: #f3f1f2;
+}
+
+.nuestrasCarreras h1 {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.column-carrera{
+    margin-top: 3%;
+    
+}
+.carrera{
+    background-color: blue;
+    height: 200px;
+    width: 213px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.artesVisuales{
+    background-color: #ffc000;
+}
+.ceramica{
+    background-color: #ff3300;
+}
+.disenio{
+    background-color: #ff0000;
+}
+.danzas{
+    background-color: #33cc33;
+}
+.teatro{
+    background-color: #0066ff;
+}
+.musica{
+    background-color: #6600ff;
+}
+.arteIJ{
+    background-color: #ff0066;
+}
+.extensionCultural{
+    background-color: #006600;
+}
+.carrera a {
+    color: white;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2rem;
+    text-decoration:none;
+}
 
 
-  
+
+
+.info {
+    display: none;
+}
+
+
+
+/*Noticias*/
+.noticias{
+    background-color: white;
+    margin-top: 3%;
+}
+
+.noticias h1 {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticia{
+    border: 1px solid black;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.noticia-cuadro{
+    height: 400px;
+    width: 390px;
+    
+    position: relative;
+    display: block;
+}
+
+.noticia-item{
+    height: 380px;
+    width: 350px;
+    
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: block;
+    border: 4px solid #9dcbe4; 
+    border-bottom: 0px;
+}
+
+
+.noticia-titulo {
+    background-color: #838382;
+    width: 350px;
+    height: 70px;
+    border: 4px solid #9dcbe4; 
+    border-top: 0px;
+}
+
+.noticia-titulo a{
+    color: white;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.5rem;
+}
