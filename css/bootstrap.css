@@ -6527,6 +6527,15 @@ a.close.disabled {
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
+  
+}
+
+.carousel-control-prev:hover {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.507) 1%, rgba(255, 255, 255, 0) 99%);
+}
+
+.carousel-control-next:hover {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.507) 1%, rgba(255, 255, 255, 0) 99%);
 }
 
 .carousel-control-prev {
@@ -6540,8 +6549,8 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  height: 70px;
+  width: 40px;
   background: no-repeat 50% / 100% 100%;
 }
 
