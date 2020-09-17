@@ -1,3 +1,7 @@
+body{
+    font-family: "Source Sans Pro"
+}
+
 /*Dropdown multilevel menu*/
 @media (min-width: 992px){
 	.dropdown-menu .dropdown-toggle:after{
@@ -43,14 +47,47 @@ nav ul li:hover {
     background-color: #1988FF;
 }
 
+
 .sociales nav ul a {
     color: white;
     text-decoration: none;
     font-size: 0.8rem;
 }
 
+.ingreso2021 {
+    background-color: #589bee ;
+}
+.ingreso2021 a {
+    color: rgb(255, 255, 255) !important;
+}
+
+
+
+
+nav ul li {
+    padding: .6rem;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.dropdown-item{
+    padding-top: .22rem;
+}
+
+
+
+
+
+
 
 /** Redes Sociales**/
+.sociales{
+    border-bottom: .02rem solid #cecccc;
+}
 .sociales ul li span{
     display: none;
 }
@@ -82,9 +119,6 @@ nav ul li:hover {
 }
 .sociales ul li a[href*='instagram.com']::before {
     content: "\f16d";
-}
-.sociales ul li a[href*='pinterest.com']::before {
-    content: "\f231 ";
 }
 
 
